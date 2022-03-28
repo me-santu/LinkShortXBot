@@ -56,7 +56,7 @@ async def link_handler(bot, message):
         await message.reply(f'Error: {e}', quote=True)
 
 async def get_shortlink(link):
-    url = 'https://'WEBSITE_LINK'/api'
+    url = 'https://{WEBSITE_LINK}/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
