@@ -30,6 +30,7 @@
         }
         "WEBSITE_LINK": {
             "description": "Any shortener website which you want to use. Ex. droplink.co (Note: Don't type https, /, : or anything like that. Only type the website name Ex: droplink.co)",
+            "required": true,
             "value": ""
         },
     },
