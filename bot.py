@@ -8,9 +8,10 @@ API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 API_KEY = environ.get('API_KEY')
+WEBSITE_LINK = environ.get('WEBSITE_LINK')
 
 
-bot = Client('clickyfly bot',
+bot = Client('linkshortx bot',
              api_id=API_ID,
              api_hash=API_HASH,
              bot_token=BOT_TOKEN,
@@ -21,14 +22,14 @@ bot = Client('clickyfly bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        text=f"**Hi {message.chat.first_name}!** \n\nThis is **ClickyFly URL Shorter Bot**. Just send me any big link and get short link.",
+        text=f"**Hi {message.chat.first_name}!** \n\nThis is **{WEBSITE_LINK} URL Shorter Bot**. Created by @itznobi. Just send me any big link and get short link.",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/Discovery_Updates')
+                    InlineKeyboardButton('Bots Updates Channel', url='https://t.me/iconicblogger')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')
+                    InlineKeyboardButton('Support Group', url='https://t.me/iconic_blogger')
                 ]
             ]
         )
@@ -55,7 +56,7 @@ async def link_handler(bot, message):
         await message.reply(f'Error: {e}', quote=True)
 
 async def get_shortlink(link):
-    url = 'https://hidelinks.in/api'
+    url = 'https://{WEBSITE_LINK}/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
