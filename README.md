@@ -4,6 +4,10 @@ A Telegram Bot for making short links using **Any URL Shortener** API.
 ## Easy Deploy:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+## HOW TO DEPLOY YOUTUBE TUTORIAL
+
+<a href="https://youtube.com/c/iconicblogger_official"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
+
 
 ## Configs:
 
@@ -18,3 +22,8 @@ A Telegram Bot for making short links using **Any URL Shortener** API.
 <p align="left">
 <a href="https://github.com/me-santu/"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p>
+
+### Credits
+
+* [Pyrogram](https://github.com/pyrogram/pyrogram)
+* `Special Thanks Dump Group Members`🤣
