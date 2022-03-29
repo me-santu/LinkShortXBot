@@ -25,5 +25,7 @@ A Telegram Bot for making short links using **Any URL Shortener** API.
 
 ### Credits
 
-* [Pyrogram](https://github.com/pyrogram/pyrogram)
-* `Special Thanks Dump Group Members`🤣
+* <p align="left">
+  <a herf="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/Credit-Abir%20Hasan-blue"></a>
+  </p>
+
