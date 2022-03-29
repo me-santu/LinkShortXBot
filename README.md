@@ -28,4 +28,12 @@ A Telegram Bot for making short links using **Any URL Shortener** API.
 * <p align="left">
   <a herf="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/Credit-Abir%20Hasan-blue"></a>
   </p>
+## Friendly Warning
+
+- You are free to use this code in any of your projects, but you MUST include the following in your README.md (Copy & paste)
+```
+##Credits
+- [Abir Hasan] (https://github.com/AbirHasan2005)
+- [Santu Ghosh] (https://github.com/me-santu)
+```
 
